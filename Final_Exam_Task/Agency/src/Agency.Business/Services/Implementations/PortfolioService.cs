@@ -4,6 +4,7 @@ using Agency.Business.Services.Interfaces;
 using Agency.Core.Entity;
 using Agency.Core.Repositories.Interfaces;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,24 +47,46 @@ namespace Agency.Business.Services.Implementations
             await _repository.CommitAsync();
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var portfolio = await _repository.SingleAsync(p => p.Id == id);
+            if(portfolio == null) throw new EntityNullException("Entity can not null!");
+            Helper.DeleteFile(_env.WebRootPath, "uploads/portfolios", portfolio.ImageUrl);
+            _repository.Delete(portfolio);
+            await _repository.CommitAsync();
         }
 
-        public Task<List<Portfolio>> GetAllAsync(Expression<Func<Portfolio, bool>>? expression = null, params string[]? includes)
+        public async Task<List<Portfolio>> GetAllAsync(Expression<Func<Portfolio, bool>>? expression = null, params string[]? includes)
         {
-            throw new NotImplementedException();
+            return await _repository.GetAllWhere(expression, includes).ToListAsync();
         }
 
-        public Task<Portfolio> GetByIdAsync(Expression<Func<Portfolio, bool>>? expression = null, params string[]? includes)
+        public async Task<Portfolio> GetByIdAsync(Expression<Func<Portfolio, bool>>? expression = null, params string[]? includes)
         {
-            throw new NotImplementedException();
+            return await _repository.SingleAsync(expression, includes);
         }
 
-        public Task UpdateAsync(Portfolio portfolio)
+        public async Task UpdateAsync(Portfolio portfolio)
         {
-            throw new NotImplementedException();
+            var existPortfolio= await _repository.SingleAsync(p=>p.Id==portfolio.Id);
+            if (existPortfolio == null) throw new EntityNullException("Entity can not null!");
+            if (portfolio.ImageFile != null)
+            {
+                if (portfolio.ImageFile.ContentType != "image/png" && portfolio.ImageFile.ContentType != "image/jpeg")
+                {
+                    throw new PortfolioImageFileContentTypeException("ImageFile", "Must be content type png ot jpeg!");
+                }
+                if (portfolio.ImageFile.Length > 2097152)
+                {
+                    throw new PortfolioImageFileLengthException("ImageFile", "Invalid image length");
+                }
+                Helper.DeleteFile(_env.WebRootPath, "uploads/portfolios", existPortfolio.ImageUrl);
+                existPortfolio.ImageUrl = Helper.SaveFile(_env.WebRootPath, "uploads/portfolios", portfolio.ImageFile);
+            }
+            existPortfolio.UpdatedDate = DateTime.UtcNow.AddHours(4);
+            existPortfolio.Caption = portfolio.Caption;
+            existPortfolio.Category = portfolio.Category;
+            await _repository.CommitAsync();
         }
     }
 }
