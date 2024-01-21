@@ -14,6 +14,7 @@ namespace Agency.Data
         public static void AddRepository(this IServiceCollection services)
         {
             services.AddScoped<IPortfolioRepository, PortfolioRepository>();
+            services.AddScoped<ISettingRepository, SettingRepository>();
         }
     }
 }

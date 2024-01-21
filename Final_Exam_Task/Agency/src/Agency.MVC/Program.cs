@@ -4,6 +4,7 @@ using Agency.Data;
 using Agency.Business;
 using Microsoft.AspNetCore.Identity;
 using Agency.Core.Entity;
+using Agency.MVC.LayoutService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AgencyDbContext>(option => { option.UseSqlServer("Server=DESKTOP-6EQ5FGI;Database=AgencyDb;Trusted_Connection=True;"); });
 builder.Services.AddRepository();
 builder.Services.AddService();
+builder.Services.AddScoped<LayoutService>();
 builder.Services.AddIdentity<AppUser, IdentityRole>(option =>
 {
     option.Password.RequiredLength = 8;

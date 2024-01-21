@@ -15,6 +15,8 @@ namespace Agency.Business
         public static void AddService(this IServiceCollection services)
         {
             services.AddScoped<IPortfolioService, PortfolioService>();
+            services.AddScoped<ISettingService, SettingService>();
+            
         }
     }
 }

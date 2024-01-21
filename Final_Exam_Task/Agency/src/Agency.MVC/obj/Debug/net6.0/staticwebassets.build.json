@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s9PcKZeucZ8iwuzv3kz+rBQNCS75NAWdgoXvjemn9d8=",
+  "Hash": "JorQ9rgDMX0JxWRbcGoFyRtebVspTuPelNRsgZ7xJMM=",
   "Source": "Agency.MVC",
   "BasePath": "_content/Agency.MVC",
   "Mode": "Default",
@@ -32963,6 +32963,23 @@
       "OriginalItemSpec": "wwwroot\\manage\\vendor\\jquery-easing\\jquery.easing.min.js"
     },
     {
+      "Identity": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.MVC\\wwwroot\\uploads\\portfolios\\29eae750-0d1b-44c0-8e5a-5a2afff046a6roundicons.jpg",
+      "SourceId": "Agency.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.MVC\\wwwroot\\",
+      "BasePath": "_content/Agency.MVC",
+      "RelativePath": "uploads/portfolios/29eae750-0d1b-44c0-8e5a-5a2afff046a6roundicons.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\portfolios\\29eae750-0d1b-44c0-8e5a-5a2afff046a6roundicons.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.MVC\\wwwroot\\uploads\\portfolios\\7043ea2f-7f68-4cd0-8d03-69f43b33182fescape.jpg",
       "SourceId": "Agency.MVC",
       "SourceType": "Discovered",
@@ -32980,12 +32997,12 @@
       "OriginalItemSpec": "wwwroot\\uploads\\portfolios\\7043ea2f-7f68-4cd0-8d03-69f43b33182fescape.jpg"
     },
     {
-      "Identity": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.MVC\\wwwroot\\uploads\\portfolios\\baf6bd3f-ab5c-45e7-b5a5-6672af6ca130dreams.jpg",
+      "Identity": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.MVC\\wwwroot\\uploads\\portfolios\\be812954-1873-4ac2-bdc7-3a789f0af20froundicons.jpg",
       "SourceId": "Agency.MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.MVC\\wwwroot\\",
       "BasePath": "_content/Agency.MVC",
-      "RelativePath": "uploads/portfolios/baf6bd3f-ab5c-45e7-b5a5-6672af6ca130dreams.jpg",
+      "RelativePath": "uploads/portfolios/be812954-1873-4ac2-bdc7-3a789f0af20froundicons.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -32994,7 +33011,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\portfolios\\baf6bd3f-ab5c-45e7-b5a5-6672af6ca130dreams.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\portfolios\\be812954-1873-4ac2-bdc7-3a789f0af20froundicons.jpg"
     },
     {
       "Identity": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.MVC\\wwwroot\\uploads\\portfolios\\f69a5989-d2dd-4cc0-b52f-3d04285af3f9treehouse-preview.jpg",
@@ -33012,23 +33029,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\portfolios\\f69a5989-d2dd-4cc0-b52f-3d04285af3f9treehouse-preview.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.MVC\\wwwroot\\uploads\\portfolios\\febaae61-d09a-4e2c-92bf-c5f2c058da58startup-framework.jpg",
-      "SourceId": "Agency.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.MVC\\wwwroot\\",
-      "BasePath": "_content/Agency.MVC",
-      "RelativePath": "uploads/portfolios/febaae61-d09a-4e2c-92bf-c5f2c058da58startup-framework.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\portfolios\\febaae61-d09a-4e2c-92bf-c5f2c058da58startup-framework.jpg"
     }
   ]
 }

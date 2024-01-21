@@ -14,5 +14,6 @@ namespace Agency.Data.DAL
         public AgencyDbContext(DbContextOptions<AgencyDbContext> options) : base(options) { }
         public DbSet<Portfolio> Portfolios { get; set; }
         public DbSet<AppUser> Users { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }
