@@ -1,0 +1,17 @@
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\bin\Debug\net6.0\Agency.Business.deps.json
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\bin\Debug\net6.0\Agency.Business.dll
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\bin\Debug\net6.0\Agency.Business.pdb
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\bin\Debug\net6.0\Agency.Core.dll
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\bin\Debug\net6.0\Agency.Data.dll
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\bin\Debug\net6.0\Agency.Data.pdb
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\bin\Debug\net6.0\Agency.Core.pdb
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\obj\Debug\net6.0\Agency.Business.csproj.AssemblyReference.cache
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\obj\Debug\net6.0\Agency.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\obj\Debug\net6.0\Agency.Business.AssemblyInfoInputs.cache
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\obj\Debug\net6.0\Agency.Business.AssemblyInfo.cs
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\obj\Debug\net6.0\Agency.Business.csproj.CoreCompileInputs.cache
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\obj\Debug\net6.0\Agency.Business.csproj.CopyComplete
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\obj\Debug\net6.0\Agency.Business.dll
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\obj\Debug\net6.0\refint\Agency.Business.dll
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\obj\Debug\net6.0\Agency.Business.pdb
+C:\Users\ll novbe\Desktop\Final_Exam_Task\Agency\src\Agency.Business\obj\Debug\net6.0\ref\Agency.Business.dll
