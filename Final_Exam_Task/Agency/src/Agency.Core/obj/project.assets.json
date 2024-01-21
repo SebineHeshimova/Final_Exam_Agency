@@ -662,11 +662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Task\\Agency\\src\\Agency.Core\\Agency.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.Core\\Agency.Core.csproj",
       "projectName": "Agency.Core",
-      "projectPath": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Task\\Agency\\src\\Agency.Core\\Agency.Core.csproj",
+      "projectPath": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.Core\\Agency.Core.csproj",
       "packagesPath": "C:\\Users\\ll novbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Task\\Agency\\src\\Agency.Core\\obj\\",
+      "outputPath": "C:\\Users\\ll novbe\\Desktop\\Final_Exam_Agency\\Final_Exam_Task\\Agency\\src\\Agency.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

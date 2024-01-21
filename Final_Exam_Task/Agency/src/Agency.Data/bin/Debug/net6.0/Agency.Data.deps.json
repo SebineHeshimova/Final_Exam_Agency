@@ -512,7 +512,8 @@
       },
       "Agency.Core/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
+          "Microsoft.EntityFrameworkCore": "6.0.26"
         },
         "runtime": {
           "Agency.Core.dll": {}
