@@ -51,5 +51,59 @@ namespace Agency.MVC.Areas.Manage.Controllers
             catch(Exception ex) { }
             return RedirectToAction("Index");
         }
+        public async Task<IActionResult> Update(int id)
+        {
+            var portfolio = await _service.GetByIdAsync(p => p.Id == id);
+            if (portfolio == null) return View("Error");
+            return View(portfolio);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(Portfolio portfolio)
+        {
+            try
+            {
+                await _service.UpdateAsync(portfolio);
+            }
+            catch (EntityNullException ex)
+            {
+                ModelState.AddModelError("", ex.Message);
+                return View();
+            }
+            catch (PortfolioImageFileContentTypeException ex)
+            {
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
+                return View();
+            }
+            catch (PortfolioImageFileLengthException ex)
+            {
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
+                return View();
+            }
+            catch (Exception ex) { }
+            return RedirectToAction("Index");
+        }
+        public async Task<IActionResult> Delete(int id)
+        {
+            var portfolio = await _service.GetByIdAsync(p => p.Id == id);
+            if (portfolio == null) return View("Error");
+            return View(portfolio);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(Portfolio portfolio)
+        {
+            try
+            {
+                await _service.DeleteAsync(portfolio.Id);
+            }
+            catch (EntityNullException ex)
+            {
+                ModelState.AddModelError("", ex.Message);
+                return View();
+            }
+            catch(Exception ex) { }
+            return RedirectToAction("Index");
+        }
     }
 }
