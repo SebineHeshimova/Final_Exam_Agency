@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ll novbe\Desktop\Final_Exam_Agency\Final_Exam_Task\Agency\src\Agency.MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ll novbe/Desktop/Final_Exam_Agency/Final_Exam_Task/Agency/src/Agency.MVC/Areas/Manage/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEFjY291bnRcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ll novbe/Desktop/Final_Exam_Agency/Final_Exam_Task/Agency/src/Agency.MVC/Areas/Manage/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

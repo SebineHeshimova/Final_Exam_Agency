@@ -1,11 +1,14 @@
 ﻿using Agency.Business.CustomExceptions.AgencyExceptions;
 using Agency.Business.Services.Interfaces;
 using Agency.Core.Entity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace Agency.MVC.Areas.Manage.Controllers
 {
     [Area("Manage")]
+    [Authorize(Roles = "SuperAdmin")]
     public class PortfolioController : Controller
     {
         private readonly IPortfolioService _service;
